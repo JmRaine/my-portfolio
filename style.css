@@ -1,0 +1,166 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-image: url('mainbg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  color: blue;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: blue;
+}
+
+.bg-section {
+  min-height: 100vh;
+  border: none;
+}
+
+.hero, .skills, .projects, .contact {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 60px 0;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.hero .sub {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.btn {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 25px;
+  background: blue;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.skills {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.skills-list span {
+  border: 1px solid blue;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+.projects {
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+.project-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  background: black;
+  padding: 20px;
+  border-radius: 15px;
+  width: 280px;
+  border: 1px solid blue;
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+}
+
+.btn-small {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 8px 18px;
+  background: blue;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.contact {
+  background: black;
+  text-align: center;
+  color: white;
+}
+
+.contact-buttons {
+  margin-top: 20px;
+}
+
+.contact-buttons .btn {
+  margin: 5px;
+  background: blue;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  font-size: 0.9rem;
+  color: white;
+}
